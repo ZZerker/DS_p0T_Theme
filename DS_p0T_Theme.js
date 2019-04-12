@@ -3,7 +3,7 @@
 // @include  https://*.die-staemme.de/*
 // @grant    GM_addStyle
 // @run-at   document-start
-// @version  1.6.1
+// @version  1.6.2
 // @namespace die-staemme.bigger.chat
 // @description Färbt das p0t Theme p0t Blau. Vergrößert sowie veschiebt den Chat und das Hauptfenster.
 // ==/UserScript==
@@ -744,18 +744,16 @@
     }
 
     .troop_template_list {
-
-        background-color: # 091827!important;
+        background-color: #091827 !important;
     }
 
-    #
-    troop_template_list ul li.selected a {
-            background - color: #091827 !important;
+    #troop_template_list ul li.selected a {
+        background-color: #091827 !important;
 
     }
 
-    # troop_template_list ul li * {
-                    background - color: #091827 !important;
+    #troop_template_list ul li *{
+    background-color: #091827 !important;
 
     }
 `);
